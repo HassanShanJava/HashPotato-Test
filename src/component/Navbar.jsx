@@ -55,8 +55,8 @@ const Navbar = () => {
         <div
           className={
             click
-              ? "fixed top-0 left-0 w-[350px] h-screen bg-transparent backdrop-blur-sm z-10 duration-300 border-r border-gray-600"
-              : "fixed top-0 left-[-100%] w-[350px] h-screen bg-transparent backdrop-blur-sm z-10 duration-300 border-r border-gray-600"
+              ? "fixed top-0 left-0 w-[350px] h-screen bg-transparent backdrop-blur-sm z-10 duration-300 border-r-2 border-gray-600"
+              : "fixed top-0 left-[-100%] w-[350px] h-screen bg-transparent backdrop-blur-sm z-10 duration-300 border-r-2 border-gray-600"
           }
         >
           <div

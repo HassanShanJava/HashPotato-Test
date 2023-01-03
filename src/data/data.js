@@ -4,8 +4,8 @@ export const data=[
         para:"$1520.33"
     },
     {
-        title:"APR       /       EPR",
-        para:"3280%     3%"
+        title:"APR / EPR",
+        para:`3280%  3%`
     },
     {
         title:"Market Cap",
