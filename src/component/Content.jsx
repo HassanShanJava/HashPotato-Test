@@ -15,13 +15,13 @@ const Content = () => {
           {/* card */}
         <div className="max-w-[800px] mx-auto py-4 px-2 grid md:grid-cols-2 gap-6">
           {data.map((item,key)=>(
-            <div key={key} className="rounded-xl border-2 border-white/30 py-2">
+            <div key={key} className="rounded-xl border-2 border-white/30 ">
             {/* overlay */}
             <div className=" w-full h-full bg-black/30 backdrop-blur-sm rounded-xl text-white text-center">
               <p className=" text-[18px] px-2 pt-4">
                 {item.title}
               </p>
-              <p className="px-2 text-[30px] font-bold">{item.para}</p>
+              <p className="p-2 text-[30px] font-bold">{item.para}</p>
             </div>
             </div>
           ))}
